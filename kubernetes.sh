@@ -1,6 +1,7 @@
 source <(kubectl completion bash)
 complete -F __start_kubectl k
 alias k="kubectl"
+alias kg="k get"
 alias kgd="k get deploy"
 alias kgp="k get pods"
 alias kgn="k get nodes"
@@ -11,6 +12,9 @@ alias kr="k run"
 alias kc="k create"
 alias ka="k apply -f"
 alias kd="k delete"
+alias kdd="k delete deployment"
+alias kdp="k delete pod"
+alias kds="k delete service"
 alias ker="k explain --recursive"
 
 export nks="-n kube-system"
