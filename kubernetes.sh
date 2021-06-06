@@ -11,11 +11,14 @@ alias kge="k get events — sort-by=’.metadata.creationTimestamp’ |tail -8"
 alias kr="k run"
 alias kc="k create"
 alias ka="k apply -f"
-alias kd="k delete"
-alias kdd="k delete deployment"
-alias kdp="k delete pod"
-alias kds="k delete service"
+alias kd="k describe"
+alias kdd="k describe deployment"
+alias kdp="k describe pod"
+alias kds="k describe service"
+alias kdi="k describe ingress"
+
 alias ker="k explain --recursive"
+alias kl="k logs"
 
 export nks="-n kube-system"
 export ETCDCTL_API=3
