@@ -25,6 +25,7 @@ alias kei="k edit ingress"
 alias kep="k edit pod"
 alias kes="k edit svc"
 
+alias kex="k explain"
 alias ker="k explain --recursive"
 
 alias kg="k get"
