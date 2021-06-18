@@ -41,7 +41,7 @@ alias kr="k run"
 export nks="-n kube-system"
 export oy="-o yaml"
 export ow="-o wide"
-export do="--dry-run=client -o yaml"
+export doy="--dry-run=client -o yaml"
 
 export ETCDCTL_API=3
 export k8s="https://k8s.io/examples"
