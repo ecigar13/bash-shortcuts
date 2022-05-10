@@ -21,7 +21,7 @@ alias kei="k edit ingress"
 alias kep="k edit pod"
 
 alias kex="k explain"
-alias ker="k explain --recursive"
+alias kexr="k explain --recursive"
 
 alias kg="k get"
 alias kgd="k get deploy"
@@ -37,6 +37,7 @@ export nks="-n kube-system"
 export oy="-o yaml"
 export ow="-o wide"
 export doy="--dry-run=client -o yaml"
+export ans="--all-namespaces=true"
 
 export ETCDCTL_API=3
 
