@@ -33,11 +33,19 @@ alias kl="k logs"
 alias kt="k top"
 
 alias kr="k run"
+alias ks="k set"
+alias ksi="k set image"
+alias ksid="ksi deployment"
+
 export nks="-n kube-system"
 export oy="-o yaml"
 export ow="-o wide"
 export doy="--dry-run=client -o yaml"
-export ans="--all-namespaces=true"
 
 export ETCDCTL_API=3
+
+GOPRIVATE="goms.io/aks/*,go.goms.io/aks/*,go.goms.io/fleet*"
+GOPROXY="http://name:pass@goproxyprod.goms.io"
+
+alias watch='watch '
 
