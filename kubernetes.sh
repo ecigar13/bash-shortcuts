@@ -44,8 +44,9 @@ export doy="--dry-run=client -o yaml"
 
 export ETCDCTL_API=3
 
-GOPRIVATE="goms.io/aks/*,go.goms.io/aks/*,go.goms.io/fleet*"
-GOPROXY="http://name:pass@goproxyprod.goms.io"
-
+export AKS_GOPROXY_TOKEN="pass"
+export GOPRIVATE="goms.io/aks/*,go.goms.io/aks/*,go.goms.io/fleet*"
+export GOPROXY="http://name:$AKS_GOPROXY_TOKEN@goproxyprod.goms.io"
+export GONOPROXY=none
 alias watch='watch '
 
