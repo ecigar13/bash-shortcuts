@@ -24,7 +24,7 @@ alias kep="ke pod"
 alias kex="k explain"
 alias kexr="k explain --recursive"
 
-alias kg="k get -o wide"
+alias kg="k get"
 alias kgd="kg deploy"
 alias kgi="kg ingress"
 alias kgp="kg pods"
