@@ -1,1 +1,1 @@
-alias hcp="hcpdebug debug -e prod"
+alias hcp="hcpdebug debug -e prod -f"
